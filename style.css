@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+ height: 50px;
+ background: #4e4e4e;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+section {
+  height: 100vh;
+  background-color: #ebb78cf1;
+}
+
+.offers {
+  background: burlywood;
+}
+
+
+.header {
+  height: calc(100vh - 50px);
+  background-image:url("./assets/Amalficoast.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.offer-btn {
+  display: flex;
+  justify-content: center;
+  height: 41px;
+  width:164px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  border:3px solid black;
+  text-decoration: none;
+  transition: 1s ;
+}
+
+.offer-btn:hover {
+  background: #fffff;
+  color: black;
+}
+.container {
+  width: 33%;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  background-color: rgb(120, 93, 241);
+}
+.img {
+  width: 1300px;
+  height:1000px;
+}
